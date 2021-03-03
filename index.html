@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="example">1) Функция возвращает самую длинную строку.
+            <div class="example_solution">
+                <input id="inputArrString" placeholder="Добавьте строку" type="text">
+                <button id="addString">Добавить</button> 
+                <button id="returnString">Выполнить</button>
+                <div  id="biggestString" class="answer"></div>
+            </div>
+        </div>
+        <div class="example">2) Возвращает символ который чаще всего встречается в строке.
+            <div class="example_solution">
+                <input id="inputReturnSymbol" placeholder="Введите строку" type="text">
+                <button id="btnReturnSymbol">Выполнить</button>
+                <div class="answer" id="returnSymbol"></div>
+            </div>
+        </div>
+        <div class="example">3) Заменить самый часто встречающийся символ строки из 2 примера на произвольный.
+            <div class="example_solution">
+                <input id="inputChangeSymbol" placeholder="Введите желаемый символ" type="text" maxlength="1">
+                <button id="btnChangeSymbol">Выполнить</button>
+                <div class="answer" id="changeSymbol"></div>
+            </div>
+        </div>
+        <div class="example">4) Проверить являются ли 2 строки анагаммами. 
+            <div class="example_solution">
+                <input id="anagramString1" type="text">
+                <input id="anagramString2" type="text">
+                <button id="btnAnagram">Выполнить</button>
+                <div class="answer" id="anagram"></div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

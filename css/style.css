@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Шаблон обнуления*/
+a:focus,a:active{outline:none;}
+input,button,textarea{font-family:inherit;}
+button{cursor:pointer;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    
+}
+.example{
+    margin: 3% 5% 3% 5%;
+}
